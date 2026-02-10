@@ -163,3 +163,5 @@ Key packages:
 **References:**
 - Gu et al. (2022) - "Efficiently Modeling Long Sequences with Structured State Spaces" (ICLR)
 - Gu et al. (2022) - "On the Parameterization and Initialization of Diagonal State Space Models" (NeurIPS)
+
+Testing GitHub connection
