@@ -1,0 +1,14 @@
+Test Accuracy: 0.6745
+RNG Seed: 42
+Epochs: 20, LR: 0.0015, Batch Size: 64
+
+                 precision    recall  f1-score   support
+
+   Smooth Round     0.8378    0.8047    0.8209       507
+   Smooth Cigar     0.5681    0.7174    0.6341       506
+   Edge-on Disk     0.5840    0.4320    0.4966       507
+Unbarred Spiral     0.7194    0.7479    0.7334       480
+
+       accuracy                         0.6745      2000
+      macro avg     0.6773    0.6755    0.6712      2000
+   weighted avg     0.6768    0.6745    0.6704      2000
