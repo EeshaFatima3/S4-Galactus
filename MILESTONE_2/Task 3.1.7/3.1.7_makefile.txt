@@ -1,0 +1,16 @@
+CC = gcc
+CFLAGS = -O2 -Wall -Wextra -std=c11
+LDFLAGS = -lm
+
+all: validate
+
+validate: nn.o validate.c
+	$(CC) $(CFLAGS) -o $@ validate.c nn.o $(LDFLAGS)
+
+nn.o: nn.c nn.h
+	$(CC) $(CFLAGS) -c nn.c
+
+clean:
+	rm -f *.o validate
+
+.PHONY: all clean
