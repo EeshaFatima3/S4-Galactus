@@ -1,0 +1,92 @@
+==================================================
+ S4D Numerical Validation Test Suite
+==================================================
+[*] Compiling test suite...
+UProject        | MSE:  2.41e-16 | MAE:  4.18e-09 | MaxErr:  2.38e-07 | [PASS]
+S4D_1           | MSE:  1.84e-09 | MAE:  1.74e-05 | MaxErr:  2.95e-04 | [PASS]
+GELU_1          | MSE:  1.56e-15 | MAE:  1.60e-08 | MaxErr:  4.77e-07 | [PASS]
+S4D_2           | MSE:  1.12e-09 | MAE:  1.63e-05 | MaxErr:  2.11e-04 | [PASS]
+GELU_2          | MSE:  2.03e-15 | MAE:  1.27e-08 | MaxErr:  4.77e-07 | [PASS]
+Logits (FC)     | MSE:  9.55e-15 | MAE:  8.48e-08 | MaxErr:  1.45e-07 | [PASS]
+100% Agreement  | C Pred: 1 | PyTorch Pred: 1 |           [PASS]
+
+UProject        | MSE:  2.16e-16 | MAE:  3.73e-09 | MaxErr:  2.38e-07 | [PASS]
+S4D_1           | MSE:  1.86e-09 | MAE:  1.76e-05 | MaxErr:  2.96e-04 | [PASS]
+GELU_1          | MSE:  1.56e-15 | MAE:  1.60e-08 | MaxErr:  4.77e-07 | [PASS]
+S4D_2           | MSE:  1.10e-09 | MAE:  1.62e-05 | MaxErr:  2.10e-04 | [PASS]
+GELU_2          | MSE:  2.19e-15 | MAE:  1.30e-08 | MaxErr:  4.77e-07 | [PASS]
+Logits (FC)     | MSE:  3.69e-13 | MAE:  4.77e-07 | MaxErr:  9.54e-07 | [PASS]
+100% Agreement  | C Pred: 2 | PyTorch Pred: 2 |           [PASS]
+
+UProject        | MSE:  1.91e-16 | MAE:  3.33e-09 | MaxErr:  2.38e-07 | [PASS]
+S4D_1           | MSE:  1.94e-09 | MAE:  1.77e-05 | MaxErr:  2.92e-04 | [PASS]
+GELU_1          | MSE:  1.54e-15 | MAE:  1.60e-08 | MaxErr:  4.77e-07 | [PASS]
+S4D_2           | MSE:  1.11e-09 | MAE:  1.62e-05 | MaxErr:  2.18e-04 | [PASS]
+GELU_2          | MSE:  2.16e-15 | MAE:  1.27e-08 | MaxErr:  4.77e-07 | [PASS]
+Logits (FC)     | MSE:  5.12e-14 | MAE:  1.84e-07 | MaxErr:  3.58e-07 | [PASS]
+100% Agreement  | C Pred: 2 | PyTorch Pred: 2 |           [PASS]
+
+UProject        | MSE:  1.50e-16 | MAE:  2.76e-09 | MaxErr:  2.38e-07 | [PASS]
+S4D_1           | MSE:  1.99e-09 | MAE:  1.78e-05 | MaxErr:  2.90e-04 | [PASS]
+GELU_1          | MSE:  1.55e-15 | MAE:  1.62e-08 | MaxErr:  2.38e-07 | [PASS]
+S4D_2           | MSE:  1.13e-09 | MAE:  1.64e-05 | MaxErr:  2.17e-04 | [PASS]
+GELU_2          | MSE:  2.20e-15 | MAE:  1.28e-08 | MaxErr:  4.77e-07 | [PASS]
+Logits (FC)     | MSE:  7.55e-14 | MAE:  2.24e-07 | MaxErr:  4.77e-07 | [PASS]
+100% Agreement  | C Pred: 1 | PyTorch Pred: 1 |           [PASS]
+
+UProject        | MSE:  3.45e-16 | MAE:  5.52e-09 | MaxErr:  2.38e-07 | [PASS]
+S4D_1           | MSE:  1.60e-09 | MAE:  1.67e-05 | MaxErr:  3.06e-04 | [PASS]
+GELU_1          | MSE:  1.58e-15 | MAE:  1.56e-08 | MaxErr:  4.77e-07 | [PASS]
+S4D_2           | MSE:  1.12e-09 | MAE:  1.60e-05 | MaxErr:  1.94e-04 | [PASS]
+GELU_2          | MSE:  1.99e-15 | MAE:  1.31e-08 | MaxErr:  4.77e-07 | [PASS]
+Logits (FC)     | MSE:  6.48e-14 | MAE:  2.53e-07 | MaxErr:  2.98e-07 | [PASS]
+100% Agreement  | C Pred: 2 | PyTorch Pred: 2 |           [PASS]
+
+UProject        | MSE:  2.67e-16 | MAE:  4.50e-09 | MaxErr:  2.38e-07 | [PASS]
+S4D_1           | MSE:  1.73e-09 | MAE:  1.72e-05 | MaxErr:  2.97e-04 | [PASS]
+GELU_1          | MSE:  1.51e-15 | MAE:  1.56e-08 | MaxErr:  4.77e-07 | [PASS]
+S4D_2           | MSE:  1.09e-09 | MAE:  1.58e-05 | MaxErr:  2.05e-04 | [PASS]
+GELU_2          | MSE:  1.96e-15 | MAE:  1.27e-08 | MaxErr:  4.77e-07 | [PASS]
+Logits (FC)     | MSE:  8.38e-13 | MAE:  6.56e-07 | MaxErr:  1.67e-06 | [PASS]
+100% Agreement  | C Pred: 0 | PyTorch Pred: 0 |           [PASS]
+
+UProject        | MSE:  2.49e-16 | MAE:  4.29e-09 | MaxErr:  2.38e-07 | [PASS]
+S4D_1           | MSE:  1.76e-09 | MAE:  1.73e-05 | MaxErr:  2.96e-04 | [PASS]
+GELU_1          | MSE:  1.53e-15 | MAE:  1.58e-08 | MaxErr:  4.77e-07 | [PASS]
+S4D_2           | MSE:  1.09e-09 | MAE:  1.58e-05 | MaxErr:  2.08e-04 | [PASS]
+GELU_2          | MSE:  1.93e-15 | MAE:  1.26e-08 | MaxErr:  4.77e-07 | [PASS]
+Logits (FC)     | MSE:  1.17e-13 | MAE:  2.68e-07 | MaxErr:  5.96e-07 | [PASS]
+100% Agreement  | C Pred: 0 | PyTorch Pred: 0 |           [PASS]
+
+UProject        | MSE:  3.06e-16 | MAE:  5.00e-09 | MaxErr:  2.38e-07 | [PASS]
+S4D_1           | MSE:  1.65e-09 | MAE:  1.69e-05 | MaxErr:  3.01e-04 | [PASS]
+GELU_1          | MSE:  1.56e-15 | MAE:  1.56e-08 | MaxErr:  4.77e-07 | [PASS]
+S4D_2           | MSE:  1.10e-09 | MAE:  1.58e-05 | MaxErr:  2.00e-04 | [PASS]
+GELU_2          | MSE:  1.95e-15 | MAE:  1.28e-08 | MaxErr:  4.77e-07 | [PASS]
+Logits (FC)     | MSE:  1.58e-13 | MAE:  3.24e-07 | MaxErr:  5.96e-07 | [PASS]
+100% Agreement  | C Pred: 0 | PyTorch Pred: 0 |           [PASS]
+
+UProject        | MSE:  2.24e-16 | MAE:  3.94e-09 | MaxErr:  2.38e-07 | [PASS]
+S4D_1           | MSE:  1.82e-09 | MAE:  1.75e-05 | MaxErr:  2.95e-04 | [PASS]
+GELU_1          | MSE:  1.55e-15 | MAE:  1.60e-08 | MaxErr:  2.38e-07 | [PASS]
+S4D_2           | MSE:  1.09e-09 | MAE:  1.59e-05 | MaxErr:  2.11e-04 | [PASS]
+GELU_2          | MSE:  2.04e-15 | MAE:  1.27e-08 | MaxErr:  4.77e-07 | [PASS]
+Logits (FC)     | MSE:  1.21e-13 | MAE:  2.38e-07 | MaxErr:  5.96e-07 | [PASS]
+100% Agreement  | C Pred: 2 | PyTorch Pred: 2 |           [PASS]
+
+UProject        | MSE:  2.26e-16 | MAE:  4.05e-09 | MaxErr:  1.19e-07 | [PASS]
+S4D_1           | MSE:  1.85e-09 | MAE:  1.75e-05 | MaxErr:  2.92e-04 | [PASS]
+GELU_1          | MSE:  1.51e-15 | MAE:  1.58e-08 | MaxErr:  2.38e-07 | [PASS]
+S4D_2           | MSE:  1.11e-09 | MAE:  1.62e-05 | MaxErr:  2.11e-04 | [PASS]
+GELU_2          | MSE:  1.96e-15 | MAE:  1.23e-08 | MaxErr:  4.77e-07 | [PASS]
+Logits (FC)     | MSE:  2.42e-13 | MAE:  4.17e-07 | MaxErr:  7.15e-07 | [PASS]
+100% Agreement  | C Pred: 3 | PyTorch Pred: 3 |           [PASS]
+
+==================================================
+ Validation Summary
+==================================================
+ Total Samples Tested : 10
+ Samples Passed       : 10
+ Samples Failed       : 0
+==================================================
+ALL TESTS PASSED SUCCESSFULLY! Exit Code 0.
