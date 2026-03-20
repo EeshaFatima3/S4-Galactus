@@ -7,10 +7,6 @@ class TakeLastTimestep(nn.Module):
     This layer is used to summarize sequence outputs from recurrent 
     or sequence models by taking only the final timestep as a feature vector.
 
-    Parameters
-    ----------
-    None
-
     Input
     -----
     x : torch.Tensor
@@ -26,5 +22,5 @@ class TakeLastTimestep(nn.Module):
         of each sequence in the batch.
     """
     def forward(self, x):
-        # TODO: Implement the forward method to extract the last timestep
-        raise NotImplementedError("TakeLastTimestep forward method not implemented yet.")
+        # Extract the last timestep for each sequence
+        return x[:, -1, :]
