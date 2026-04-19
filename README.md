@@ -60,7 +60,7 @@ This repository contains two complementary components for the S4-based galaxy mo
     ├── math.s                     # Math helper routines (exp, sin, cos, tanh)
     ├── nn.s                       # Neural network control flow / inference pipeline
     ├── weights.s                  # Pre-trained model weights (conv2d_w, fc_w, fc_b)
-    ├── main.s                     # Entry point / bare-metal main
+    ├── shm_main.s                 # Entry point / shared memory main
     ├── sample0.s                  # Test input sample 0
     ├── sample1.s                  # Test input sample 1
     ├── sample2.s                  # Test input sample 2
@@ -151,6 +151,7 @@ Examples:
 - `LEFT Arrow` — Previous sample
 - `RIGHT Arrow` — Next sample
 - `R` — Random sample
+- `M` — Toggle magma coloring
 - `Q` — Quit
 
 ### Implementation Tasks
@@ -221,17 +222,17 @@ Make sure all of the above are available on your `PATH` before building.
 
 **Compile and run the full inference pipeline:**
 ```bash
-./build.sh -a main.s -l nn.s -l math.s -l weights.s
+./build.sh -a shm_main.s -l nn.s -l math.s -l weights.s
 ```
 
 **Compile and run with a specific sample:**
 ```bash
-./build.sh -a main.s -l sample0.s -l nn.s -l math.s -l weights.s
+./build.sh -a shm_main.s -l sample0.s -l nn.s -l math.s -l weights.s
 ```
 
 **Execute a previously compiled binary:**
 ```bash
-./build.sh -e main.s
+./build.sh -e shm_main.s
 ```
 
 **Clean all build artifacts:**
